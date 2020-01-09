@@ -1,0 +1,3 @@
+FROM wrouesnel/postgres_exporter:v0.8.0@sha256:520fcd04d6c8f922d800d89ae96c021f4afd22e376c4b88260a8b780e3375dbe
+ENV PG_EXPORTER_EXTEND_QUERY_PATH /queries.yaml
+COPY queries.yaml /queries.yaml
